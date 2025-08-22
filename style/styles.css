@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Mozilla+Headline:wght@200..700&display=swap');
+@import url("../about.html");
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --cor-primaria:#2F5249;
+    --cor-segundaria:#97B067;
+    --cor-terciara:#E3DE61;
+}
+ 
+.header-port {
+    padding: 5% 0% 5% 15%;
+}
+
+.header-menu {
+    display: flex;
+    gap: 90px;
+}
+
+.btn-menu {
+    color: var(--cor-terciara);
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+}
+
+
+.minha-foto2 {
+    border-radius:0;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 0% 10% 0% 10% ;
+}
+
+.body-port {
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciara);
+    font-family: "Mozilla Headline", sans-serif;
+}
+
+.titulo-strong {
+    color: var(--cor-segundaria);
+}
+
+.info-principal {
+    display: flex;
+    justify-content:center;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    padding: 0% 10% 0% 10%;
+    
+}
+
+.info-principal-sobre-mim {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-sobre-mim {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.minha-foto {
+    border-radius:50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 0% 10% 0% 10%;
+}
+
+.minha-foto2 {
+    border-radius:50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 0% 10% 0% 10%;
+}
+
+.coluna1 {
+
+    width: 300px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    font-family: "Chela One", system-ui;
+}
+
+.btn-github {
+    background-color: var(--cor-segundaria);
+    color: black;
+    text-decoration: none;
+    border: 2px, solid var(--cor-segundaria) ;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.img-github {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-linkedin {
+    background-color: var(--cor-segundaria);
+    color: black;
+    text-decoration: none;
+    border: 2px solid var(--cor-segundaria);
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.img-linkedin {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-instagram {
+    background-color:var(--cor-segundaria);
+    color: black;
+    text-decoration: none;
+    border: 2px, solid var(--cor-segundaria) ;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.img-insta {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-contatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px, solid var(--cor-terciara);
+    background-color: #E3DE61;
+    color: black;
+    margin-top: 10%;
+    align-items: center;
+    height: 40px;
+    
+}
+
+.contatos{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.paragrafo-gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.paragrafo-whats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-gmail {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.img-whatsapp {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width : 1178px) {
+
+    .info-principal {
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .info-principal-sobre-mim {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .minha-foto2 {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .titulo-sobre-mim {
+        margin-top: 60px;
+    }
+
+    .coluna1 {
+        width: auto;
+        padding: auto;
+    }
+
+    .coluna2-minha-foto2 {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: 225px;
+    }
+}
+
